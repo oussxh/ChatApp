@@ -2,33 +2,23 @@
 
 A simple client-server chat application built entirely with **Java Swing**. It includes both a **GUI chat client** and a **multithreaded server**.
 
-## 📁 Project Structure
-ChatAPP/
-├── src/
-│   ├── App.java
-│   ├── ChatServer.java
-│   ├── ChatClient.java
-│   └── ChatClientGUI.java
-├── bin/                ← Compiled class files (generated after build)
-└── README.md
-
 ## ⚙️ Requirements
 - Java **17** or newer (tested with Java 21 & 25)
 - No external libraries required
 
 ## 🧱 How to Compile
 Open a terminal or command prompt inside the project folder and run:
-javac -d bin src/*.java
+`javac -d bin src/*.java`
 This will compile all `.java` files and place the `.class` files in the **bin** directory.
 
 ## 🚀 How to Create the JAR File
 After compiling, run:
-jar cfe ChatApp.jar App -C bin .
+`jar cfe ChatApp.jar App -C bin .`
 This will create a runnable JAR file named **ChatApp.jar** with `App` as the main class.
 
 ## 💻 How to Run
 Run the application using:
-java -jar ChatApp.jar
+`java -jar ChatApp.jar`
 This automatically:
 - Starts the chat server  
 - Opens the chat client GUI  
@@ -43,3 +33,4 @@ java -cp bin ChatClient
 
 ## 👨‍💻 Author
 Made with ☕ by **Oussama Chikh**
+
